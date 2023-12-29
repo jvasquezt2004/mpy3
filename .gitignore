@@ -1,0 +1,14 @@
+# Bytecode compilado
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Otros archivos y directorios comúnmente ignorados
+.env
+.venv
+*.log
+
+# Directorios específicos de herramientas de desarrollo
+.idea/
+.vscode/
