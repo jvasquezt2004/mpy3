@@ -12,3 +12,11 @@ __pycache__/
 # Directorios específicos de herramientas de desarrollo
 .idea/
 .vscode/
+
+# PyInstaller
+build/
+dist/
+*.spec
+*.pyc
+*.log
+main
