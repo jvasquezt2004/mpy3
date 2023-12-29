@@ -4,7 +4,7 @@ import os
 HOME_DIR = os.environ['HOME']
 DESTINY = os.path.join(HOME_DIR, 'Audio')
 
-def process_link(link: str):
+def process_link_audio(link: str):
     video = YouTube(link)
     audio_stream = video.streams.filter(only_audio=True).first()
 
